@@ -57,7 +57,7 @@ WARNING!!! WARNING!!!
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
-    console.log("name:"+names[i]+" - 1st letter:"+names[i].charAt(0).toLowerCase());
+    // console.log("name:"+names[i]+" - 1st letter:"+names[i].charAt(0).toLowerCase());
     if (names[i].charAt(0).toLowerCase()=='j') {
       byeSpeaker.speak(names[i]);
     } else {
